@@ -31,7 +31,9 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.button1: mTextView1.setText("You clicked 박정하의 button!");
+                break;
                 case R.id.button2: mTextView1.setText("You clicked my 2nd button!");
+                break;
                 default:
                     break;
             }
